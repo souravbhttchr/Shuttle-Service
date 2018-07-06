@@ -3,10 +3,12 @@
 
 package com.services.composite.contract;
 
+import com.beans.LoginCredentials;
 import com.beans.User;
 
-public interface RegistrationService {
+public interface CommonService {
 
 	public boolean register(User user);
+	public String login(LoginCredentials loginCredentials);
 	
 }
